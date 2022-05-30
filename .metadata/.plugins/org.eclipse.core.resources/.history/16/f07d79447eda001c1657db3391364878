@@ -1,0 +1,16 @@
+package com.jatin;
+//    string is immutable because 
+
+//  string are immutable in java  but the strings made from string buffer are mutable
+public class Difffstandstb {
+	
+ static String s1 = "hjatin";
+   
+    public static void main(String[] args) {
+		
+    	
+    	System.out.println("s1.length()");
+	}
+ 
+ 
+}

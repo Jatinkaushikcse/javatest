@@ -1,0 +1,24 @@
+package com.jatin;
+
+public class Course {
+      
+	int courseId;
+	String courseName;
+	 int courseFee;
+	 
+	 
+	 public void displayCourseDetails(){
+		 System.out.println();
+		 System.out.println();
+		 System.out.println();
+	 }
+	 
+	 public static void authenticate(String username, String password) {
+		 if( username.equals("Admin") && password.equals("1234")) {
+			 System.out.println("jati");
+		 }
+	 }
+	 public static void main(String[] args) {
+		authenticate("Admin", "1234");
+	}
+}

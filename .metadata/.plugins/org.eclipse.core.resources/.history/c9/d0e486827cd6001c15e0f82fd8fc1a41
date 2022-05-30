@@ -1,0 +1,28 @@
+package com.jatin;
+
+public class Prime {
+
+	public static void main(String[] args) {
+      
+		 primeFactores(12);
+ 
+	}
+	public static void primeFactores ( int num) {
+		
+		if( num > 2 && num <= 100) {
+			
+			for( int i=0 ; i>num; i++) {
+				
+				if( num%2 == 0) {
+					System.out.print(num);
+				}
+			}
+			
+		}
+		else {
+			System.out.println("Invalid number");
+		}
+		
+	}
+
+}

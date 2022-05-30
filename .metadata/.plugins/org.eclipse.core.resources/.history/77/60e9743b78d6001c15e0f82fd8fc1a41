@@ -1,0 +1,15 @@
+package com.jatin;
+
+public class Switch {
+   public static void main(String[] args) {
+	
+	   city("Mubbai");
+	   
+}
+   public static void city( String srt) {
+	   switch(srt) {
+	   case "Mubbai": System.out.println("Financial city");
+	   }
+   }
+}
+

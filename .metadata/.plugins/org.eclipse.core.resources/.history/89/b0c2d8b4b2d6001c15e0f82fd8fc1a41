@@ -1,0 +1,22 @@
+package com.kaushik;
+
+public class VolandConsonent {
+    
+	public static void main(String[] args){
+		check('j');
+		
+	}
+	 static void check(char ch) {
+		 
+		switch(ch) {
+		case  'a': 
+		case 'e' : 
+		case  'i': 
+		case  'o':
+		case  'u': System.out.println("vowel");
+		break;
+		default : System.out.println("consonent");
+			
+		}
+	}
+}
